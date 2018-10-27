@@ -24,12 +24,48 @@
 #CONTACT PAGE
 #ERROR PAGE
 #RESPONSIVE STYLE
+#ACHIEVEMENTS
 */
 
 
 /*--------------------*/
 /* BASIC TYPOGRAPHY */
 /*--------------------*/
+.responsive{
+  width:100%;
+  height:auto;
+}
+
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+
+/*Removes cursor that comes with typed.js*/
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+/*Custom cursor animation*/
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
 
 img#slider_img{
   filter:brightness(2.75);
@@ -1331,7 +1367,7 @@ img{
 /* FOOTER */
 /*--------------------*/
 
-
+/* 
 #footer{
   background-color: #171717;
   display: inline;
@@ -1375,7 +1411,7 @@ img{
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
-}
+} */
 
 
 /*--------------------*/
@@ -2500,4 +2536,16 @@ img{
   .blog-archive-left .blog-news-img {
     height: 220px;
   }
+}
+
+.position , .association{
+  text-align: center;
+}
+
+.position{
+  padding-top: 25px;
+}
+.img-responsive{
+  height:auto;
+  width:100%
 }
