@@ -21,6 +21,84 @@
 #NEWS AND EVENTS
 */
 
+/*--------------------*/
+/* TESTIMONIAL */
+/*--------------------*/
+
+#testimonial {
+  background-attachment: fixed !important;
+  background-image: url("assets/images/farm(1).jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  color: #ffffff;
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 70px 0;
+}
+
+#testimonial .title-area {
+  padding: 0 50px;
+}
+
+#testimonial .title-area .title {
+  font-size: 30px;
+  line-height: 30px; 
+}
+
+.testimonial-slider {
+  display: inline;
+  float: left;
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.single-slider{
+	display: inline;
+	float: left;
+	text-align: center;
+	width: 100%;
+  outline: none;
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  height: 100px;
+  margin: 0 auto 30px;
+  text-align: center;
+  width: 100px;
+}
+
+.testimonial-img img{
+	width: 100%;
+	border-radius: 50%;
+}
+
+.testimonial-content{}
+.testimonial-content p{
+	font-size: 15px;
+}
+
+.testimonial-content h6 {
+  font-size: 15px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.testimonial-content h6 span {
+  margin-left: 3px;
+}
+
+.testimonial-slider .slick-dots li {
+  border-radius: 50%;
+  color: #fff;  
+}
+
+.testimonial-slider .slick-dots li button::before {
+  display: none;
+}
+
 
 /*--------------------*/
 /* BASIC TYPOGRAPHY */
@@ -959,7 +1037,7 @@ canvas {
   float: left;
   width: 100%;
   padding-top:70px;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
   background-color: ffffff;
   
 }
